@@ -55,6 +55,3 @@ todoList.remove(3);
 
 todoList.display();
 
-todoList.remove(4);
-
-todoList.display();
