@@ -1,0 +1,19 @@
+{
+  "name": "todo-list-ts",
+  "version": "1.0.0",
+  "main": "dist/todo.js",
+  "scripts": {
+    "start": "ts-node todo.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn todo.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A TypeScript-based todo list application",
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
